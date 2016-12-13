@@ -1,0 +1,21 @@
+{
+  "name": "mongo-id",
+  "version": "0.0.2",
+  "description": "generates a mongoid",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "mongoid": "index.js"
+  },
+  "keywords": [
+    "mongoid",
+    "random"
+  ],
+  "author": "Murat Sutunc",
+  "license": "MIT",
+  "dependencies": {
+    "mongodb": "^2.2.15"
+  }
+}
