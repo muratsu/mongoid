@@ -1,5 +1,9 @@
 #!/usr/bin/env node
+const ncp = require("copy-paste");
 
-var ObjectID = require('mongodb').ObjectID;
-var objectId = new ObjectID();
-console.log(objectId);
+const ObjectID = require('mongodb').ObjectID;
+const objectId = new ObjectID();
+
+ncp.copy(objectId, function () {
+  console.log(`copied "${objectId}" to clipboard`);
+});
